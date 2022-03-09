@@ -117,13 +117,14 @@ def get_retweets(url):
 
 
 def main():
+    pass
     # get_retweeters("https://twitter.com/BrewysTable/status/1477293541126598656")
     # get_status('1473215909561044994')
     # send_direct_message('161998880', 'Elo')
-    reply_to_tweet("@edekgb YAY", "1500828731165876230")
+    # reply_to_tweet("@edekgb YAY", "1500828731165876230")
     # get_timeline("pawelkorpal")
     # get_retweets("https://twitter.com/mjbroniarz/status/1486590015656316929")
-    get_last_tweet_id()
+    # get_last_tweet_id()
 
 if __name__ == "__main__":
     main()
