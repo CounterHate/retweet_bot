@@ -14,7 +14,7 @@ WRONG_PARAM = (
 
 def get_input():
     # opens input file and reads urls
-    with open("long_input.csv", "r") as input:
+    with open("input.csv", "r") as input:
         inputreader = csv.reader(input)
         jobs = []
         for index, row in enumerate(inputreader):
